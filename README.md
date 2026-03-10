@@ -27,8 +27,8 @@ The notebook is structured into clear, logical phases:
 **Note to Reviewers:** The classification thresholds and specific binning parameters (WoE) used in this project were determined based on **specific task requirements** and the provided dataset. These thresholds are designed for this demonstration and should not be taken as universal "best practices." In a real-world banking scenario, these are typically adjusted based on a financial institution's risk appetite and regulatory guidelines (e.g., Basel III/IV).
 
 ## 📊 Model Performance
-- **Train Gini Score**: ~59.33%
-- **Test Gini Score**: ~58.90%
+- **Train Gini Score**: ~56.26%
+- **Test Gini Score**: ~56.23%
 - The close proximity of these scores indicates a robust model that does not suffer from significant overfitting.
 
 ## 💻 Technologies Used
