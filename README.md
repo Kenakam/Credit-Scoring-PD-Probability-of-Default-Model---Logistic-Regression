@@ -12,8 +12,8 @@ The notebook is structured into clear, logical phases:
     * Initial data ingestion and exploratory analysis.
     * Handling missing values and identifying significant data anomalies (e.g., age values of `-500`).
 2.  **Feature Engineering (WoE & IV)**:
-    * **Weight of Evidence (WoE)**: Transforming categorical and numerical variables to linearize the relationship with the target variable.
-    * **Information Value (IV)**: Calculating IV to select the most predictive features and reduce model complexity.
+    * **Weight of Evidence (WoE) Transformation**: Categorical and numerical variables were transformed into WoE values to linearize relationships with the target variable.
+    * **Univariate Gini Analysis**: Each feature's predictive power was individually assessed using Gini coefficients to select the most impactful variables and reduce model complexity.
 3.  **Model Training**: 
     * Implementing a Logistic Regression classifier using `scikit-learn`.
     * Splitting data into Training and Testing sets to ensure model generalizability.
